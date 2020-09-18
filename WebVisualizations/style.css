@@ -21,9 +21,6 @@ body{
 .navbar-brand:hover{
 color: rgb(209, 131, 199) !important;
 }
-.active, .dropdown-menu .dropdown-item:active a:hover{
-  background-color:#E7E7E7!important; 
-}
 .dropdown-item{
   color: #6D8092 !important; 
 }
@@ -91,9 +88,5 @@ background-color: #0BADA6 !important;
   padding: 10px !important; 
 }
 button{
-  margin-right: 30px; 
-}
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focusring-color; 
+  margin-right: 20px; 
 }
