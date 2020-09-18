@@ -4,8 +4,8 @@ body{
 }
 /* Navbar */
 .navbar{
-  max-height: 65px; 
-  background-color: white; 
+  max-height: 65px;
+  background-color: white;  
 }
 .navigation .navbar-brand{
   color: white; 
@@ -88,5 +88,5 @@ background-color: #0BADA6 !important;
   padding: 10px !important; 
 }
 button{
-  margin-right: 20px; 
+  margin-right: 10px; 
 }
