@@ -9,7 +9,6 @@ body{
 }
 .navigation .navbar-brand{
   color: white; 
-  margin-left: 30px; 
   padding: inherit; 
   font-weight: strong; 
   background-color: #0BADA6;
@@ -28,12 +27,8 @@ color: rgb(209, 131, 199) !important;
 .dropdown-item{
   color: #6D8092 !important; 
 }
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+.dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
   background-color:#E7E7E7 !important; 
-}
-a{
-  color: #6D8092;
-  font-size: 15px; 
 }
 /* Images */
 img{
@@ -44,16 +39,9 @@ img{
   border-color:#0BADA6;
   border-style: solid;   
 }
-.vizualization{
+.visualization{
   width:50% !important;
   height:50% !important;
-}
-/* Title Class  */
-.title{
-  color: #0BADA6;  
-  font-family: 'Kufam', cursive, Georgia, 'Times New Roman';
-  font-weight: bolder; 
-  padding-top: 25px; 
 }
 /* Paragraph Element */
 p{
@@ -68,11 +56,6 @@ font-size: 14px;
   padding: 10px 20px 15px; 
   color:black;
   background-color: white; 
-}
-/* Table */
-.table{
-  font-size: 15px; 
-  border-top-color: white !important; 
 }
 /* Footer */
 footer{
