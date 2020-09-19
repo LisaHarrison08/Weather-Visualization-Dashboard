@@ -46,84 +46,50 @@
         </ul>
       </div>
     </nav>
-  </div>
+  </div> 
   <!-- Content Section -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
-        
-        <!-- Left box  -->
-        <div class="box">
-          <div class="jumbotron jumbotron-fluid">
-            <div>
-              <h3 class="display-4">Summary: Latitude Vs. X</h3>
-              <p class="lead">Dashboard displaying latitude images produced from a random selection of 500 unique cities.</p>
-            </div>
+  
+      <!-- Container  -->
+      <div class="box">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h3 class="display-4">Comparison: City Latitude Vs. X</h3>
           </div>
-          <hr>
-          <img src="imagesLat/Temperature.png"  class="visualization rounded float-left" alt="Scatter Plot displaying City Latitude vs Temperature">
-          <p>Weather checks were performed on a variety of cities using a series of successive API calls.</p>
-          <p>An analysis of the data was conducted to view the changes of weather as you move closer to the equator.</p>
-          <p>Matplotlib was used to produce the scatter plots of weather vs. latitude. The following weather conditions were taken into consideration:</p>
-          <ul>
-            <li>
-              <p>Max Temperature</p>
-            </li>
-            <li>
-              <p>Humidity</p>
-            </li>
-            <li>
-              <p>Cloudiness</p>
-            </li>
-            <li>
-              <p>Wind Speed</p>
-            </li>
-          </ul>
-            <p>This dashboard provides the
-            source data and visualizations generated, as well as a written analysis of any observable trends or correlations</p>
         </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-
-        <!-- Right Box -->
-        <div class="box">
-          <div class="jumbotron pb-4 jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Visualizations</h1>
-              <p class="lead">The following image links provide the visualizations and analysis of any trends and correlations witnessed.</p>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6"">
+              <a href="maxTemperature.html">
+                <img class="panel" src="visualizations/Temperature.png" alt="Scatter Plot displaying City Latitude vs Temperature">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="humidity.html">
+                <img class="panel" src="visualizations/Humidity.png" alt="Scatter Plot displaying City Latitude vs Humidity">
+              </a>
             </div>
           </div>
-          <hr>
-          <div class="container py-5 mb-5 px-0">
-            <div class="row" style="padding-bottom: 50px;">
-              <div class="col-6">
-                <a href="maxTemperature.html">
-                  <img class="panel" src="imagesLat/Temperature.png" alt="Scatter Plot displaying City Latitude vs Temperature">
-                </a>
-              </div>
-              <div class="col-6">
-                <a href="humidity.html">
-                  <img class="panel" src="imagesLat/Humidity.png" alt="Scatter Plot displaying City Latitude vs Humidity">
-                </a>
-              </div>
+  
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="cloudiness.html">
+                <img class="panel" src="visualizations/Cloudiness.png" alt="Scatter Plot displaying City Latitude vs Cloudiness">
+              </a>
+  
             </div>
-
-            <div class="row" style="padding-bottom: 50px;">
-              <div class="col-6">
-                <a href="cloudiness.html">
-                  <img class="panel" src="imagesLat/Cloudiness.png" alt="Scatter Plot displaying City Latitude vs Cloudiness">
-                </a>
-              </div>
-              <div class="col-6">
-                <a href="windSpeed.html">
-                  <img class="panel" src="imagesLat/WindSpeed.png" alt="Scatter Plot displaying City Latitude vs Wind Speed">
-                </a>
-              </div>
+            <div class="col-lg-6">
+              <a href="windSpeed.html">
+                <img class="panel" src="visualizations/WindSpeed.png" alt="Scatter Plot displaying City Latitude vs Wind Speed">
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Footer Section -->
