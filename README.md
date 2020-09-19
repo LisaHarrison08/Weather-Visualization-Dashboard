@@ -1,6 +1,6 @@
 # Web Visualization Dashboard (Latitude)
 
-## Latitude Analysis Dashboard
+## Latitude Analysis Dashboard - Published here: https://lisaharrison08.github.io/Web-Design-Challenge/
 
 Created a visualization dashboard website using visualizations from the repository: Python APIs. 
 
