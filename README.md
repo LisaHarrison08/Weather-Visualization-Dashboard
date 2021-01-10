@@ -1,6 +1,7 @@
 # Web Visualization Dashboard (Latitude)
 
-## Latitude Analysis Dashboard - Published here: 
+## Latitude Analysis Dashboard - Published here: https://weather-visualization.herokuapp.com
+
 
 Created and designed a dashboard using visualizations from the repository: Python APIs. 
 
