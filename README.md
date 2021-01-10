@@ -1,8 +1,8 @@
 # Web Visualization Dashboard (Latitude)
 
-## Latitude Analysis Dashboard - Published here: https://lisaharrison08.github.io/Web-Design-Challenge/
+## Latitude Analysis Dashboard - Published here: 
 
-Created a visualization dashboard website using visualizations from the repository: Python APIs. 
+Created and designed a dashboard using visualizations from the repository: Python APIs. 
 
 Created individual pages for each plot and a means by which to navigate between them. The pages contain the visualizations and their corresponding explanations. Also included a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
